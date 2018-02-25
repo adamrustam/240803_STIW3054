@@ -2,8 +2,8 @@
 class MyThread extends Thread {
 
     public void run() {
-        System.out.println("running...");
-        System.out.println("running...new1");
+        System.out.println("Adam...*");
+        System.out.println("Adam...**");
     }
 
     public static void main(String args[]) {
@@ -15,7 +15,7 @@ class MyThread extends Thread {
 
         t1.start();
         t2.start();
-        System.out.println("running...new2");
+        System.out.println("Adam...***");
         t1.setName("STIW3054");
         System.out.println("After changing name of t1:" + t1.getName());
     }
